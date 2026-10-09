@@ -1,0 +1,8 @@
+{
+  "name": "customer-support",
+  "version": "1.3.0",
+  "description": "分诊工单、起草回复、升级问题、沉淀知识库。研究客户上下文，把已解决的问题转化为自助内容。",
+  "author": {
+    "name": "Anthropic"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "finance",
+  "version": "1.3.0",
+  "description": "精简财务与会计工作流：从日记账分录、对账到财务报表和差异分析。加速审计准备、月末结账，让账目干净清爽。",
+  "author": {
+    "name": "Anthropic"
+  }
+}

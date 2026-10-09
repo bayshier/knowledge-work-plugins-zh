@@ -1,0 +1,1475 @@
+{
+  "name": "knowledge-work-plugins",
+  "owner": {
+    "name": "Anthropic"
+  },
+  "plugins": [
+    {
+      "name": "noibu",
+      "displayName": "Noibu",
+      "description": "为电商打造：Noibu 插件通过 Noibu 将 Claude 直接接入你店铺的会话、报错与转化数据，并打通营销、客服与交易平台，弥合客户体验与营收之间的鸿沟。不止于分析：找出蚕食你营收的元凶，在整个技术栈上采取行动，构建端到端自动化工作流。",
+      "category": "monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Noibu/ai-plugin.git",
+        "path": "src",
+        "ref": "main",
+        "sha": "9fa2eddc3a86937b7956dedfaab32fac6cabf868"
+      },
+      "homepage": "https://help.noibu.com/articles/3918362002-overview-of-the-noibu-plugin-for-claude"
+    },
+    {
+      "name": "productivity",
+      "displayName": "Productivity",
+      "source": "./productivity",
+      "description": "管理任务、规划你的一天，并积累关于你工作的重要上下文记忆。与日历、邮件和聊天工具同步，让一切井井有条、进度在轨。"
+    },
+    {
+      "name": "enterprise-search",
+      "displayName": "Enterprise Search",
+      "source": "./enterprise-search",
+      "description": "在一个地方搜索公司全部工具。跨邮件、聊天、文档与 wiki 找到任何内容，无需在应用之间来回切换。"
+    },
+    {
+      "name": "cowork-plugin-management",
+      "displayName": "Plugin Management",
+      "source": "./cowork-plugin-management",
+      "description": "创建、定制并管理贴合你组织工具与工作流的插件。配置 MCP 服务器、调整插件行为、改造模板，让它们匹配你团队的真实工作方式。"
+    },
+    {
+      "name": "sales",
+      "displayName": "Sales",
+      "source": "./sales",
+      "description": "准备电话、总结跟进、研究客户、评审商机与销售管线、撰写销售预测——用你团队已有的 CRM、邮件、日历和聊天工具，或上传的文件。在你发话时更新记录、起草或发送邮件、发消息、订会议。"
+    },
+    {
+      "name": "finance",
+      "displayName": "Finance",
+      "source": "./finance",
+      "description": "精简财务与会计工作流：从日记账分录、对账到财务报表和差异分析。加速审计准备、月末结账，让账目干净清爽。"
+    },
+    {
+      "name": "data",
+      "displayName": "Data",
+      "source": "./data",
+      "description": "更快地写 SQL、探索数据集、产出洞察。构建可视化与仪表盘，把原始数据变成给利益相关者的清晰故事。"
+    },
+    {
+      "name": "legal",
+      "displayName": "Legal",
+      "source": "./legal",
+      "description": "为法务团队加速合同审查、NDA 分诊与合规工作流。起草法律简报、整理判例研究、管理组织知识。"
+    },
+    {
+      "name": "marketing",
+      "displayName": "Marketing",
+      "source": "./marketing",
+      "description": "跨营销渠道创作内容、策划活动、分析表现。保持品牌调性一致，追踪竞品，汇报什么在起作用。"
+    },
+    {
+      "name": "customer-support",
+      "displayName": "Customer Support",
+      "source": "./customer-support",
+      "description": "分诊工单、起草回复、升级问题、沉淀知识库。研究客户上下文，把已解决的问题转化为自助内容。"
+    },
+    {
+      "name": "product-management",
+      "displayName": "Product Management",
+      "source": "./product-management",
+      "description": "更快地撰写功能规格、规划路线图、综合用户研究。让利益相关者随时了解进展，并在竞争格局中抢占先机。"
+    },
+    {
+      "name": "bio-research",
+      "displayName": "Bio Research",
+      "source": "./bio-research",
+      "description": "连接临床前研究工具与数据库（文献检索、基因组学分析、靶点优先级排序），加速早期生命科学研发"
+    },
+    {
+      "name": "slack-by-salesforce",
+      "displayName": "Slack",
+      "source": "./partner-built/slack",
+      "description": "Slack 集成：搜索消息、发送通讯、管理画布等",
+      "author": {
+        "name": "Salesforce"
+      }
+    },
+    {
+      "name": "apollo",
+      "displayName": "Apollo.io",
+      "source": "./partner-built/apollo",
+      "description": "用 Apollo.io 寻找潜客、富化线索、加载触达序列——面向 Claude Code 与 Cowork 的一键式 MCP 服务器集成。",
+      "author": {
+        "name": "Apollo.io"
+      }
+    },
+    {
+      "name": "common-room",
+      "displayName": "Common Room",
+      "source": "./partner-built/common-room",
+      "description": "把 Common Room 变成你的 GTM 副驾驶。研究客户与联系人，用参会人画像和谈话要点准备会议，并跨邮件、LinkedIn 与电话起草个性化触达。",
+      "author": {
+        "name": "Common Room"
+      }
+    },
+    {
+      "name": "engineering",
+      "displayName": "Engineering",
+      "source": "./engineering",
+      "description": "精简工程工作流——站会、代码评审、架构决策、事故响应、技术文档。可配合现有工具，也可独立使用。"
+    },
+    {
+      "name": "human-resources",
+      "displayName": "Human Resources",
+      "source": "./human-resources",
+      "description": "精简人力资源运营——招聘、入职、绩效评估、薪酬分析与制度咨询。保持合规，让团队顺畅运转。"
+    },
+    {
+      "name": "design",
+      "displayName": "Design",
+      "source": "./design",
+      "description": "加速设计工作流——设计评审、设计系统管理、UX 文案、无障碍审计、研究综合与开发交付。从探索到像素级完美的规格。"
+    },
+    {
+      "name": "operations",
+      "displayName": "Operations",
+      "source": "./operations",
+      "description": "优化业务运营——供应商管理、流程文档、变更管理、产能规划与合规追踪。让组织高效运转。"
+    },
+    {
+      "name": "small-business",
+      "displayName": "Small Business",
+      "source": "./small-business",
+      "description": "预置的小企业工作流，帮你经营并发展生意。支持你已在用的大多数工具。每一步涉及钱或客户的操作都由你批准。安装后让 Claude 带你完成上手。"
+    },
+    {
+      "name": "brand-voice",
+      "displayName": "Brand Voice",
+      "source": "./partner-built/brand-voice",
+      "description": "从现有文档与对话中提炼你的品牌语调，生成可执行的规范，并用既定调性与定位校验 AI 生成内容。",
+      "author": {
+        "name": "Tribe AI"
+      }
+    },
+    {
+      "name": "tavily",
+      "displayName": "Tavily",
+      "description": "使用 Tavily 的搜索、抽取、爬取与研究 API，构建基于实时网络数据的 AI 应用。",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tavily-ai/skills.git",
+        "sha": "778122e5f9c680f541eeceda5a5b36405eb7980c"
+      },
+      "homepage": "https://www.tavily.com/"
+    },
+    {
+      "name": "vanta-mcp-plugin",
+      "displayName": "Vanta",
+      "description": "Vanta 插件通过 Vanta MCP 服务器把 Claude 接入 Vanta 安全与合规平台。列出未通过的合规测试、获取针对该测试的修复上下文，并通过修改代码直接在 Claude 会话里修好它们。",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/VantaInc/vanta-mcp-plugin.git",
+        "sha": "345d86b55faa649e955b7ea5569cf52d8425c2d5"
+      },
+      "homepage": "https://help.vanta.com/en/articles/14094979-connecting-to-vanta-mcp#h_887ce3f337"
+    },
+    {
+      "name": "zoom-plugin",
+      "displayName": "Zoom",
+      "source": "./partner-built/zoom-plugin",
+      "description": "规划、构建并调试 Zoom 集成：覆盖 REST API、Meeting SDK、Video SDK、webhook、机器人与 MCP 工作流。搜索会议、获取录制、读取转录文字，设计 AI 驱动的 Zoom 体验。",
+      "author": {
+        "name": "Zoom"
+      }
+    },
+    {
+      "name": "bigdata-com",
+      "displayName": "Bigdata.com",
+      "description": "Bigdata.com 官方插件，基于 Bigdata MCP 提供金融研究、分析与情报工具。",
+      "author": {
+        "name": "RavenPack"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Bigdata-com/bigdata-plugins-marketplace.git",
+        "path": "plugins/bigdata-com",
+        "ref": "main",
+        "sha": "2a52a001366227e205cfa7565d78e8198dc42fa8"
+      }
+    },
+    {
+      "name": "miro",
+      "displayName": "Miro",
+      "description": "安全访问 Miro 看板。让 AI 在企业级安全下读取看板上下文、创建图表、生成代码。",
+      "author": {
+        "name": "Miro"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/miroapp/miro-ai.git",
+        "path": "claude-plugins/miro",
+        "ref": "main",
+        "sha": "b6408e1bdfe0c842f209d40b52e92caf118a4d39"
+      }
+    },
+    {
+      "name": "planetscale",
+      "displayName": "PlanetScale",
+      "description": "经过鉴权的托管 MCP 服务器，访问你的 PlanetScale 组织、数据库、分支、schema 与 Insights 数据。查询数据、找出慢查询、获取组织与账户信息。",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/planetscale/claude-plugin.git",
+        "sha": "95c80f9f391be9b1b6172bf82d4191e1ec11b637"
+      },
+      "homepage": "https://planetscale.com/"
+    },
+    {
+      "name": "adspirer-ads-agent",
+      "displayName": "Adspirer",
+      "description": "跨平台广告管理：Google Ads、Meta Ads、TikTok Ads 与 LinkedIn Ads。91 个工具覆盖关键词调研、广告系列创建、表现分析与预算优化。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amekala/adspirer-mcp-plugin.git",
+        "sha": "e3067cec8803e28da91834d0f38e0405ad23429b"
+      },
+      "homepage": "https://www.adspirer.com"
+    },
+    {
+      "name": "sanity-plugin",
+      "displayName": "Sanity",
+      "description": "Sanity 内容平台集成：MCP 服务器、agent 技能与斜杠命令。查询与撰写内容、构建并优化 GROQ 查询、设计 schema、配置可视化编辑。",
+      "category": "development",
+      "author": {
+        "name": "Sanity"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sanity-io/agent-toolkit.git",
+        "sha": "88d6cdfa7cb06c99edd5f376efa4dac21ae3f877"
+      },
+      "homepage": "https://www.sanity.io"
+    },
+    {
+      "name": "zoominfo",
+      "displayName": "ZoomInfo",
+      "description": "搜索公司与联系人、富化线索、寻找相似客户，获取 AI 排序的联系人推荐。预置技能把多个 ZoomInfo 工具串成完整的 B2B 销售工作流。",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Zoominfo/zoominfo-mcp-plugin.git",
+        "sha": "d07402feb2b9967ccc118f55bacd41a79c822d6a"
+      },
+      "homepage": "https://zoominfo.com"
+    },
+    {
+      "name": "mintlify",
+      "displayName": "Mintlify",
+      "description": "用 Mintlify 搭建漂亮的文档站。把非 Markdown 文件转成格式规范的 MDX 页面，正确使用组件添加和修改内容，并自动化文档更新。",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mintlify/mintlify-claude-plugin.git",
+        "sha": "acd6d2e0128c4f235d55cfb8d8c91ecbdd5df8cc"
+      },
+      "homepage": "https://www.mintlify.com/"
+    },
+    {
+      "name": "daloopa",
+      "displayName": "Daloopa",
+      "description": "由 Daloopa 机构级数据驱动的金融分析技能",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/daloopa/plugin.git",
+        "sha": "fb1ed7a6e0fd2c430e8f89b952cdd0f34137cde9"
+      },
+      "homepage": "https://github.com/daloopa/plugin"
+    },
+    {
+      "name": "zapier",
+      "displayName": "Zapier",
+      "description": "把 8000+ 应用接入你的 AI 工作流。直接在客户端里发现、启用并执行 Zapier 动作。",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zapier/zapier-mcp.git",
+        "path": "plugins/zapier",
+        "ref": "main",
+        "sha": "217d65a980f9b75536babf89ba64bf03ad95beea"
+      },
+      "homepage": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier"
+    },
+    {
+      "name": "intercom",
+      "displayName": "Intercom",
+      "description": "面向 Claude Code 的 Intercom 集成。搜索会话、分析客服模式、查询联系人与公司，并安装 Intercom Messenger。连接你的 Intercom 工作区，从客户数据中获得实时洞察。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/intercom/claude-plugin-external.git",
+        "sha": "62773a7d4b8aac31545d6888fe6479be3bc53804"
+      },
+      "homepage": "https://github.com/intercom/claude-plugin-external"
+    },
+    {
+      "name": "cockroachdb",
+      "description": "面向 Claude Code 的 CockroachDB 插件——直接在你的 AI 编程代理里探索 schema、编写优化的 SQL、调试查询、管理分布式数据库集群。",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cockroachdb/claude-plugin.git",
+        "sha": "6c96c6394a61f366e8ec1b7cec2281e97507cbff"
+      },
+      "homepage": "https://github.com/cockroachdb/claude-plugin"
+    },
+    {
+      "name": "prisma",
+      "displayName": "Prisma",
+      "description": "Prisma MCP 集成：Postgres 数据库管理、schema 迁移、SQL 查询与连接串管理。开通 Prisma Postgres 数据库、执行迁移、直接操作你的数据。",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/prisma/claude-plugin.git",
+        "sha": "815dbc4a045a29e3b81510ba0e3ab806f1baaf0e"
+      },
+      "homepage": "https://prisma.io"
+    },
+    {
+      "name": "fastly-agent-toolkit",
+      "displayName": "Fastly",
+      "description": "Fastly 开发工具与平台技能",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fastly/fastly-agent-toolkit.git",
+        "sha": "abb9d42a5318d67b52b39db9f5b88289ec1567c4"
+      },
+      "homepage": "https://github.com/fastly/fastly-agent-toolkit/blob/main/README.md"
+    },
+    {
+      "name": "cloudinary",
+      "displayName": "Cloudinary",
+      "description": "在 Claude 里直接使用 Cloudinary。通过自然对话管理资产、应用变换、优化媒体等。",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cloudinary-devs/cloudinary-plugin.git",
+        "sha": "86be53409e3fb1c465cd5ff4d1dc937a2860f45c"
+      },
+      "homepage": "https://cloudinary.com/documentation"
+    },
+    {
+      "name": "nimble",
+      "displayName": "Nimble",
+      "description": "Nimble 网络数据工具箱——搜索、抽取、映射、爬取网络，并与结构化数据 agent 协作",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Nimbleway/agent-skills.git",
+        "sha": "2890fdf94f0adfae79bf05b4de3c91667701bafb"
+      },
+      "homepage": "https://docs.nimbleway.com/integrations/agent-skills/plugin-installation"
+    },
+    {
+      "name": "brightdata-plugin",
+      "displayName": "Bright Data",
+      "description": "由 Bright Data 驱动的网络抓取、Google 搜索、结构化数据抽取与 MCP 服务器集成。包含 7 项技能：将任意网页抓取为 markdown（可绕过机器人检测/验证码）、以结构化 JSON 结果搜索 Google、从 40+ 网站（Amazon、LinkedIn、Instagram、TikTok、YouTube 等）抽取数据、编排 Bright Data 60+ MCP 工具、Web Unlocker / SERP API / Web Scraper API / Browser API 内置最佳实践，以及 brightda…",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/brightdata/skills.git",
+        "sha": "e825f02fbcd7a89087fd1053a57ddcd45113370f"
+      },
+      "homepage": "https://docs.brightdata.com"
+    },
+    {
+      "name": "searchfit-seo",
+      "displayName": "SearchFit SEO",
+      "description": "免费 AI 驱动的 SEO 工具箱——网站审计、内容策略规划、页面优化、schema 标记生成、关键词聚类与 AI 可见度追踪。适用于任何网站或代码库。",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/searchfit/searchfit-seo.git",
+        "sha": "c324a2e87c4dd84fe6bd6d55e45272acdd090afd"
+      },
+      "homepage": "https://searchfit.ai"
+    },
+    {
+      "name": "atlan",
+      "displayName": "Atlan",
+      "description": "面向 Claude Code 的 Atlan 数据目录插件。用自然语言搜索、探索、治理和管理你的数据资产。由 Atlan MCP 服务器驱动，支持语义搜索、血缘遍历、术语表管理、数据质量规则等。",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/atlanhq/agent-toolkit.git",
+        "sha": "86bb1ad27f80e189b328333d2271b360ae579f2b"
+      },
+      "homepage": "https://docs.atlan.com/"
+    },
+    {
+      "name": "ai-firstify",
+      "displayName": "AI-Firstify",
+      "description": "基于 TechWolf AI-First 训练营的 9 条设计原则与 7 个设计模式，做 AI 优先的项目审计与重构。",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/techwolf-ai/ai-first-toolkit.git",
+        "path": "plugins/ai-firstify",
+        "ref": "main",
+        "sha": "f6380c947b04ae0817c2723fbf589784d4501357"
+      },
+      "homepage": "https://ai-first.techwolf.ai"
+    },
+    {
+      "name": "product-tracking-skills",
+      "displayName": "Product Tracking",
+      "description": "让 SaaS 产品为产品分析做好数据准备的 AI agent 技能——从代码库扫描到埋点方案再到可运行的埋点代码。",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Accoil/product-tracking-skills.git",
+        "sha": "341f8cf47d8b5dda550222152377c50aee34c723"
+      },
+      "homepage": "https://www.accoil.com/product-tracking"
+    },
+    {
+      "name": "postiz",
+      "displayName": "Postiz",
+      "description": "社交媒体自动化命令行工具：跨 28+ 平台（X、LinkedIn、Reddit、YouTube、TikTok、Instagram 等）排期发帖、管理集成、上传媒体、追踪分析数据。",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gitroomhq/postiz-agent.git",
+        "sha": "8d431747a895da7ed9b38df8b3d4de180dcf682e"
+      },
+      "homepage": "https://postiz.com/agent"
+    },
+    {
+      "name": "figma",
+      "displayName": "Figma",
+      "description": "Figma 设计平台集成。访问设计文件、提取组件信息、读取设计令牌、把设计翻译成代码。弥合设计与开发工作流之间的鸿沟。",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/figma/mcp-server-guide.git",
+        "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1"
+      },
+      "homepage": "https://github.com/figma/mcp-server-guide"
+    },
+    {
+      "name": "adobe-for-creativity",
+      "displayName": "Adobe",
+      "author": {
+        "name": "Adobe"
+      },
+      "description": "汇聚 Adobe Creative Cloud 的图像、矢量、设计与视频工具。一次编辑多个资产、适配不同平台、完成多步骤创意工作流，产出精致成品。",
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/adobe/skills.git",
+        "path": "plugins/creative-cloud/adobe-for-creativity",
+        "ref": "main",
+        "sha": "304aa23dfd84aeb7b005816962d1bfb40d27750a"
+      },
+      "homepage": "https://github.com/adobe/skills/tree/main/plugins/creative-cloud/adobe-for-creativity"
+    },
+    {
+      "name": "pdf-viewer",
+      "displayName": "PDF Viewer",
+      "source": "./pdf-viewer",
+      "description": "在实时交互查看器中查看、批注并签署 PDF。标记合同、带视觉反馈填写表单、盖章批准、放置签名——然后下载批注后的副本。"
+    },
+    {
+      "name": "box",
+      "displayName": "Box",
+      "description": "在 Claude Code 里直接处理你的 Box 内容——搜索文件、整理文件夹、与团队协作，并使用 Box AI 回答问题、总结文档、抽取数据，无需离开工作流。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/box/skills.git",
+        "sha": "35567f913a2bfd7f8b59367c9df3ae14b5ad4cfe"
+      },
+      "homepage": "https://github.com/box/skills"
+    },
+    {
+      "name": "lseg",
+      "displayName": "LSEG",
+      "description": "使用 LSEG 金融数据与分析：为债券定价、分析收益率曲线、评估外汇套息交易、为期权估值、搭建宏观仪表盘。",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LSEG-API-Samples/lseg-claude-plugin.git",
+        "sha": "44422c8ad8366d27d872363981b459912b0db2f4"
+      },
+      "homepage": "https://github.com/LSEG-API-Samples/lseg-claude-plugin"
+    },
+    {
+      "name": "sp-global",
+      "displayName": "S&P Global",
+      "description": "S&P Global——金融数据与分析技能，含公司速览、财报前瞻与交易摘要",
+      "category": "finance",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kensho-technologies/spglobal-agent-skills.git",
+        "path": "plugins/spglobal-plugin",
+        "ref": "main",
+        "sha": "1d7d364a07d755d401b6f66d41affe71bc62a9b9"
+      },
+      "homepage": "https://kensho.com"
+    },
+    {
+      "name": "carta-cap-table",
+      "description": "Carta Cap Table 插件——查询股权结构表、期权授予、SAFE、409A 估值、瀑布分配场景等的技能与钩子",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/carta/plugins.git",
+        "path": "plugins/carta-cap-table",
+        "ref": "main",
+        "sha": "6ab81016389cac69e03ed79114d75f31bc8e7bfd"
+      },
+      "homepage": "https://carta.com"
+    },
+    {
+      "name": "carta-crm",
+      "description": "以对话方式管理 Carta CRM——通过 Carta CRM MCP 服务器搜索、添加、更新、富化投资人、公司、联系人、商机、备注与融资记录",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/carta/plugins.git",
+        "path": "plugins/carta-crm",
+        "ref": "main",
+        "sha": "6ab81016389cac69e03ed79114d75f31bc8e7bfd"
+      },
+      "homepage": "https://carta.com"
+    },
+    {
+      "name": "carta-investors",
+      "description": "Carta Investors 插件——通过 Carta MCP 服务器查询投资人数据、业绩基准、监管报告、AGM 演示生成、品牌信息提取等的技能",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/carta/plugins.git",
+        "path": "plugins/carta-investors",
+        "ref": "main",
+        "sha": "6ab81016389cac69e03ed79114d75f31bc8e7bfd"
+      },
+      "homepage": "https://carta.com"
+    },
+    {
+      "name": "airtable",
+      "description": "Airtable 是你 agent 的数据库与运营层——无论运行产品、营销、销售、运营、HR 还是自定义业务应用。它把结构化数据与人类和 agent 共享的多人群协作可视化界面（表格、看板、日历、图库、时间线）结合在一起，并支持与 Jira、Salesforce、Zendesk、Google Drive、Databricks 同步。让 Claude 精通 Airtable：base 与 schema、记录、协作界面。捆绑官方 Airtable MCP 服务器。",
+      "author": {
+        "name": "Airtable"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Airtable/skills.git",
+        "path": "plugins/airtable",
+        "ref": "main",
+        "sha": "812ee67f1fd3d76fb45ff8df40afaa0448602ba8"
+      },
+      "homepage": "https://www.airtable.com"
+    },
+    {
+      "name": "desktop-commander",
+      "description": "MCP 服务器：终端命令、进程管理，以及覆盖文本、代码、PDF、DOCX、Excel、图片与结构化数据的文件操作。",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP.git",
+        "path": "plugins/claude",
+        "ref": "main",
+        "sha": "1eccc8b09cc09805202a1737fd20d605356c3671"
+      },
+      "homepage": "https://desktopcommander.app"
+    },
+    {
+      "name": "qodo",
+      "displayName": "Qodo",
+      "description": "把 Qodo 的代码库智能、编码规范与代码评审带进你的编程代理。",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/qodo-ai/qodo-skills.git",
+        "path": "packages/qodo",
+        "ref": "main",
+        "sha": "79019ff7a574383d7146502ec5ffe7f7437a55d6"
+      },
+      "homepage": "https://qodo.ai"
+    },
+    {
+      "name": "qodo-standards",
+      "displayName": "Qodo Standards",
+      "description": "可选的 Qodo 规则发现与规范管理工作流。",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/qodo-ai/qodo-skills.git",
+        "path": "packages/qodo-standards",
+        "ref": "main",
+        "sha": "79019ff7a574383d7146502ec5ffe7f7437a55d6"
+      },
+      "homepage": "https://qodo.ai"
+    },
+    {
+      "name": "servicenow-sdk",
+      "description": "通过 Claude 用 Fluent SDK 轻松创建、编辑、部署 ServiceNow 应用。帮助开发者使用 ServiceNow SDK 构建、扩展、管理 ServiceNow 应用、工作流与 agent。",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ServiceNow/sdk.git",
+        "path": "providers/claude/plugin",
+        "ref": "main",
+        "sha": "f3e0379242b29e0039e1625d637aa1c246acbe12"
+      },
+      "homepage": "https://servicenow.github.io/sdk/"
+    },
+    {
+      "name": "twilio-developer-kit",
+      "description": "Twilio 技能为 AI 编程代理提供程序化知识——该用哪些 API、按什么顺序用、要避开什么。覆盖 SMS、语音、WhatsApp、Verify、SendGrid、合规等 30+ 产品。",
+      "author": {
+        "name": "Twilio"
+      },
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/twilio/ai.git",
+        "sha": "8aba46fb65dc8d9a20f4b301a68352064b4159a5"
+      },
+      "homepage": "https://www.twilio.com"
+    },
+    {
+      "name": "vibe-prospecting",
+      "description": "Vibe Prospecting 把 Claude 接入实时 B2B 公司与联系人数据，让用户可以大规模搜索、匹配、富化、筛选并导出潜客。它把自然语言请求转化为结构化 GTM 工作流，覆盖线索生成、CRM 富化、公司调研、高管发掘与多步潜客自动化，适用于 Claude Cowork 与 Claude Code。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/explorium-ai/vibeprospecting-plugin.git",
+        "sha": "9b4067473305dbba80be0fa9a492be39b96f455e"
+      },
+      "homepage": "https://www.vibeprospecting.ai/product/claude-plugin"
+    },
+    {
+      "name": "base44",
+      "description": "构建并部署 Base44 全栈应用，含 CLI 项目管理与 JavaScript/TypeScript SDK 开发技能",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/base44/skills.git",
+        "sha": "8548a482f606751c55dcdb1365398fbec2fcb64d"
+      },
+      "homepage": "https://docs.base44.com"
+    },
+    {
+      "name": "wix",
+      "description": "构建、管理、部署 Wix 网站与应用。包含 CLI 开发技能与 Wix MCP 服务器，覆盖站点管理、电商、CMS、仪表盘扩展等。",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wix/skills.git",
+        "sha": "91f818bb0ddf09c489567b189a0bc74dd1cb3386"
+      },
+      "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills"
+    },
+    {
+      "name": "datadog",
+      "displayName": "Datadog",
+      "description": "通过预配置的 Datadog MCP 服务器在 Claude Code 中直接使用 Datadog。用自然对话查询日志、指标、链路、仪表盘等。本插件处于预览阶段。",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/datadog-labs/claude-code-plugin.git",
+        "sha": "195f570c002beab3d7bd342739034d0019aa4863"
+      },
+      "homepage": "https://docs.datadoghq.com/bits_ai/mcp_server/setup?tab=claudecode"
+    },
+    {
+      "name": "airwallex-agentos",
+      "displayName": "Airwallex",
+      "description": "把 Airwallex 的全球金融基础设施带进 Claude。用自然语言编排账户操作，例如从采购单生成发票、从发票完成供应商入驻、跨币种查询现金头寸。AgentOS 捆绑预置财务技能与 MCP 服务器，公共 CLI 把你的 agent 接入 Airwallex 的能力。",
+      "author": {
+        "name": "Airwallex"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/airwallex/airwallex-marketplace.git",
+        "path": "plugins/airwallex-agentos",
+        "ref": "master",
+        "sha": "b418b9913e4919f85257aa1e25319e59464e8fae"
+      },
+      "homepage": "https://www.airwallex.com/docs"
+    },
+    {
+      "name": "langfuse",
+      "displayName": "Langfuse",
+      "description": "面向 Langfuse 的技能——开源 LLM 工程平台，用于追踪、提示词管理与评估。",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/langfuse/skills.git",
+        "sha": "f275566d06fba46278d94ceea0e00d5e0cf70e62"
+      },
+      "homepage": "https://langfuse.com"
+    },
+    {
+      "name": "valtown",
+      "displayName": "Val Town",
+      "description": "在 Val Town 上构建与部署。捆绑 Val Town MCP 服务器与平台技能（HTTP val、cron/定时、SQLite、邮件、OAuth、React UI、第三方集成、模板）。",
+      "category": "deployment",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/val-town/plugins.git",
+        "path": "plugin",
+        "ref": "main",
+        "sha": "2d3ec654b6a7d93e209afb8f2e8848eddcb9f17b"
+      },
+      "homepage": "https://val.town"
+    },
+    {
+      "name": "learn-with-coursera",
+      "displayName": "Learn with Coursera",
+      "description": "把任何学习需求变成个性化的 Coursera 体验。问三个快速问题（主题、熟悉度、偏好形式），搜索 Coursera 课程目录，给出正确的下一步——课程、实战项目、短视频或直播演练——再规划前行路径。目录工具需要 Coursera 连接器。",
+      "category": "learning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coursera/skills.git",
+        "path": "skills",
+        "ref": "main",
+        "sha": "ac28fd6ebf8584e3ee196159bd6d4514fa07de0f"
+      },
+      "strict": false,
+      "skills": [
+        "./learn-with-coursera"
+      ]
+    },
+    {
+      "name": "monday-crm",
+      "displayName": "monday CRM",
+      "description": "用自然语言运营 monday CRM。从零搭建销售管线，以排序好的商机晨报开启一天，生成预测仪表盘，审计看板健康度，批量清洗脏数据，把会议纪要变成商机更新。每项技能都以真实的更新、文档或仪表盘写回 monday。基于官方 monday MCP 连接器构建。",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mondaycom/mcp.git",
+        "path": "plugins/monday-crm",
+        "ref": "master",
+        "sha": "5eb0835e921de42ba603d7a8315ab4a2575a46b2"
+      },
+      "homepage": "https://monday.com"
+    },
+    {
+      "name": "monday-com",
+      "displayName": "monday.com",
+      "description": "monday.com 官方 Claude Cowork 插件。跨工作管理、CRM、开发、服务与营销活动管理看板、条目、文档与表单。经 OAuth 获得完整读写权限。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mondaycom/monday-claude-cowork-plugin.git",
+        "sha": "ce381e93a0a6c2ed3b9942ff1803b8078ba89389"
+      },
+      "homepage": "https://monday.com"
+    },
+    {
+      "name": "lusha",
+      "displayName": "Lusha",
+      "description": "用 Lusha 的 B2B 情报平台寻找潜客、富化线索、搭建可打电话的名单——已验证的电话号码、公司信号与相似客户定向。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lusha-oss/lusha-mcp-plugin.git",
+        "sha": "ed34947a36754411f03cdeaba91c8cdaa153ef2e"
+      },
+      "homepage": "https://www.lusha.com"
+    },
+    {
+      "name": "auth0",
+      "displayName": "Auth0",
+      "description": "Auth0 核心技能：快速上手、从其他服务商迁移、多因素认证（MFA）。",
+      "category": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/auth0/agent-skills.git",
+        "path": "plugins/auth0",
+        "ref": "main",
+        "sha": "46e17946a35e9a1d2ecca0acd503b56d941ba71e"
+      },
+      "homepage": "https://github.com/auth0/agent-skills"
+    },
+    {
+      "name": "buildkite",
+      "displayName": "Buildkite",
+      "description": "官方 Buildkite 技能，面向 Claude Code、Cursor 等 AI 编程代理——流水线、迁移、预检、agent 运行时、CLI 与 API",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/buildkite/skills.git",
+        "sha": "50c85f20d409485b1445888983116b2f130e1630"
+      },
+      "homepage": "https://github.com/buildkite/skills"
+    },
+    {
+      "name": "clickhouse",
+      "displayName": "ClickHouse",
+      "description": "ClickHouse Claude Code 插件：技能（ClickHouse 最佳实践）、规则与 MCP。",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ClickHouse/clickhouse-claude-code-plugin.git",
+        "sha": "e3229ed4aafbe94e90dd91699e05eee4263d5efe"
+      },
+      "homepage": "https://github.com/ClickHouse/clickhouse-claude-code-plugin"
+    },
+    {
+      "name": "datarobot-agent-skills",
+      "displayName": "DataRobot Agent Skills",
+      "description": "面向 AI/ML 工作流的 DataRobot 技能——模型训练、部署、预测、特征工程、监控、可解释性、数据准备、App Framework CI/CD 与外部 agent 监控。",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/datarobot-oss/datarobot-agent-skills.git",
+        "sha": "55a755eaf19d8403af60800904cc8b0e9e94c96f"
+      },
+      "homepage": "https://datarobot.com"
+    },
+    {
+      "name": "qdrant-skills",
+      "displayName": "Qdrant",
+      "description": "Qdrant 向量搜索的 agent 技能：扩容、性能优化、搜索质量、监控、部署、模型迁移、版本升级与 SDK 用法",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/qdrant/skills.git",
+        "sha": "6a03d0ce8f554a579c2e14a81fb7e2245a708db0"
+      },
+      "homepage": "https://skills.qdrant.tech"
+    },
+    {
+      "name": "qt-development-skills",
+      "displayName": "Qt Development Skills",
+      "description": "面向 Qt 软件开发的 agentic 工程技能，含 Qt C++/QML 代码评审、QML 编码与 Qt C++/QML 代码文档。这些技能使用 AI，可能出错，请务必仔细复核输出。",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TheQtCompanyRnD/agent-skills.git",
+        "sha": "71d6c10da78b9a764468ae11c86ab3bc4ca4921f"
+      },
+      "homepage": "https://github.com/TheQtCompanyRnD/agent-skills"
+    },
+    {
+      "name": "exa",
+      "displayName": "Exa",
+      "description": "Exa AI 网络搜索、深度研究与内容抽取。提供 MCP 工具与研究技能：全面网络搜索、人物发掘、公司调研、学术论文等。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/exa-labs/exa-mcp-server.git",
+        "sha": "15ffb50519e719dc791cdc750ce5ed1934c0a1ed"
+      },
+      "homepage": "https://exa.ai/docs/reference/exa-mcp"
+    },
+    {
+      "name": "dropbox",
+      "displayName": "Dropbox",
+      "description": "Dropbox 插件把你的 Dropbox 文件直接接入 Claude：搜索、整理、保存生成的内容、创建分享链接，无需切换工具。它遵循你现有的 Dropbox 权限，Claude 只处理你本就有权访问的文件。",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dropbox/dropbox-ai-plugins.git",
+        "path": "claude",
+        "ref": "main",
+        "sha": "4135e81caf8275b4c97caef244479e0dcb6fb823"
+      },
+      "homepage": "https://www.dropbox.com"
+    },
+    {
+      "name": "canva",
+      "displayName": "Canva",
+      "description": "通过 Canva MCP 服务器创建、编辑、评审、调整尺寸并做品牌合规检查 Canva 设计。",
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/canva-sdks/canva-skills.git",
+        "path": "plugins/canva",
+        "ref": "main",
+        "sha": "b56291ea0a36d0a941e1478b47959be5f1771dee"
+      },
+      "homepage": "https://www.canva.com"
+    },
+    {
+      "name": "pixeltable",
+      "displayName": "Pixeltable",
+      "description": "用 Pixeltable 构建多模态 AI 应用——表格、计算列、向量检索、UDF、工具调用 agent 与 25+ AI 供应商集成。",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixeltable/pixeltable-skill.git",
+        "sha": "c08f73400b13a2aaf42014e20f93df4aa902d813"
+      },
+      "homepage": "https://docs.pixeltable.com"
+    },
+    {
+      "name": "grafana-assistant",
+      "displayName": "Grafana Assistant",
+      "description": "开发与使用 Grafana Assistant 应用及 CLI 的技能与规则。",
+      "category": "monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/grafana/ai-marketplace.git",
+        "path": "plugins/grafana-assistant",
+        "ref": "main",
+        "sha": "a5c72f2d74c640e9675eb0249526447968535015"
+      },
+      "homepage": "https://grafana.com"
+    },
+    {
+      "name": "grafana-cloud-mcp",
+      "displayName": "Grafana Cloud MCP",
+      "description": "面向 AI 辅助 Grafana Cloud 可观测性的托管 MCP 服务器——无需本地安装。",
+      "category": "monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/grafana/ai-marketplace.git",
+        "path": "plugins/grafana-cloud-mcp",
+        "ref": "main",
+        "sha": "12be5634a492f73c189d466c5449d09b853ad7a4"
+      },
+      "homepage": "https://grafana.com"
+    },
+    {
+      "name": "grasp",
+      "displayName": "Grasp",
+      "description": "由 Grasp 的公司查询、表格创建、导入、买家、交易、表格富化、联系人与市场调研工具驱动的成单工作流。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/grasp-ai/grasp-mcp-plugin.git",
+        "sha": "0f3bdfb9fcd282bba4d27b4012f6a44dfd09bf41"
+      },
+      "homepage": "https://www.grasp-ai.com/"
+    },
+    {
+      "name": "honeycomb",
+      "displayName": "Honeycomb",
+      "description": "Honeycomb 可观测性的技能、agent 与工作流——查询模式、生产环境排查、SLO、OpenTelemetry 埋点与 Beeline 迁移。设计上与 Honeycomb MCP 服务器互补。",
+      "category": "monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/honeycombio/agent-skill.git",
+        "path": "honeycomb",
+        "ref": "main",
+        "sha": "b169d7d1c76ab93809064226b9682efb563bed34"
+      },
+      "homepage": "https://github.com/honeycombio/agent-skill"
+    },
+    {
+      "name": "b12-claude-plugin",
+      "displayName": "B12",
+      "description": "B12 插件含两项技能：Website Generator（从一段简短描述创建 B12 网站）与 B12 Website Editor（借助 Claude Cowork 的浏览器访问能力编辑在线 B12 网站）。",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/b12io/b12-claude-plugin.git",
+        "sha": "c1eb08dbff0d918bdf65a103fda93e16e986c6ab"
+      },
+      "homepage": "https://github.com/b12io/b12-claude-plugin"
+    },
+    {
+      "name": "signoz",
+      "displayName": "SigNoz",
+      "description": "官方 SigNoz 插件：MCP 配置、文档、查询、仪表盘与告警",
+      "category": "monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SigNoz/agent-skills.git",
+        "path": "plugins/signoz",
+        "ref": "main",
+        "sha": "35fe186903e436950056b39d19ee83668b9f5f89"
+      },
+      "homepage": "https://signoz.io/docs/ai/agent-skills"
+    },
+    {
+      "name": "tinyfish",
+      "displayName": "TinyFish",
+      "description": "给你 agent 的完整网络工具箱。毫秒级搜索网络并获取答案。抓取任意 URL 返回干净的 markdown 内容。派浏览器 agent 导航网站、填表单、抽取结构化数据。需要完全的程序化控制时，一键拉起无头浏览器。",
+      "category": "automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
+        "path": "claude",
+        "ref": "main",
+        "sha": "d3e1d3040b2abdd903289a7ce0a486511c28ebb9"
+      },
+      "homepage": "https://docs.tinyfish.ai"
+    },
+    {
+      "name": "carbone-skill",
+      "displayName": "Carbone",
+      "description": "官方 Carbone 技能——完整模板语言参考，覆盖标签、循环、条件、格式化器、聚合器与全部输出格式（DOCX、XLSX、PPTX、ODT、HTML、Markdown、PDF）",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/carboneio/carbone-skill.git",
+        "sha": "25207b3f52b97872312eab997ee5c62cc5c9542d"
+      },
+      "homepage": "https://carbone.io"
+    },
+    {
+      "name": "modern-web-guidance",
+      "displayName": "Modern Web Guidance",
+      "description": "让你的编程代理紧跟最新 Web 最佳实践",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
+        "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e"
+      },
+      "homepage": "https://goo.gle/modern-web-guidance"
+    },
+    {
+      "name": "stackhawk-api",
+      "displayName": "StackHawk API",
+      "description": "查询 StackHawk 平台 API：安全态势报告、发现结果分析与应用管理。引导 agent 完成鉴权、数据获取与结果呈现。",
+      "category": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/stackhawk/agent-skills.git",
+        "path": "plugins/api",
+        "ref": "main",
+        "sha": "66cac9baa5883a1007575faf1b22855a1124834a"
+      },
+      "homepage": "https://docs.stackhawk.com/ai-security/"
+    },
+    {
+      "name": "stackhawk-hawkscan",
+      "displayName": "StackHawk HawkScan",
+      "description": "配置、运行并解读 HawkScan DAST 结果。生成 stackhawk.yml 配置，通过 CLI 或 Docker 运行扫描，并把安全发现转化为按优先级排序的修复任务交给你的编程代理。",
+      "category": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/stackhawk/agent-skills.git",
+        "path": "plugins/hawkscan",
+        "ref": "main",
+        "sha": "66cac9baa5883a1007575faf1b22855a1124834a"
+      },
+      "homepage": "https://docs.stackhawk.com/ai-security/"
+    },
+    {
+      "name": "growthbook",
+      "displayName": "GrowthBook",
+      "description": "覆盖 GrowthBook 特性开关与实验全生命周期的一整套 agent 技能。",
+      "category": "testing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/growthbook/skills.git",
+        "sha": "eb7960d4fe5034bd8d8f100320192d1691a173ac"
+      },
+      "homepage": "https://growthbook.io"
+    },
+    {
+      "name": "browser-use",
+      "displayName": "Browser Use",
+      "description": "给 Claude 一个真浏览器——你自己的 Chrome 或 Browser Use 云端浏览器。凡是涉及网站或 Web 应用的任务都用得上：浏览、抓取与数据抽取、填表、测试网站、截图、自动化 Web 工作流。",
+      "category": "automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/browser-use/plugins.git",
+        "path": "browser-use",
+        "ref": "main",
+        "sha": "a25f0a262928bcbb62071432636d943ed9f2b6aa"
+      },
+      "homepage": "https://browser-use.com"
+    },
+    {
+      "name": "gitkraken",
+      "displayName": "GitKraken",
+      "description": "让 Claude 访问你真实的 Git 与项目上下文：你参与的每个仓库的提交、分支、拉取请求与 issue。支持 GitHub、GitLab、Azure DevOps、Bitbucket 与 Jira。",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gitkraken/claude-plugin.git",
+        "sha": "f7a53b2cd138c22eccb977b9d93494ea6d423d12"
+      },
+      "homepage": "https://www.gitkraken.com"
+    },
+    {
+      "name": "synthflow",
+      "displayName": "Synthflow",
+      "description": "通过托管 MCP 服务器把 Claude Code 接入 Synthflow AI 语音代理平台，提供通话复盘与 agent 提示词审计技能，外加文档搜索连接器。",
+      "category": "automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SynthFlowAI/AnthropicPlugin.git",
+        "path": "plugins/synthflow",
+        "ref": "main",
+        "sha": "205871ee83508502d2c982ee1bb7e65a2a29190b"
+      },
+      "homepage": "https://synthflow.ai"
+    },
+    {
+      "name": "unity",
+      "displayName": "Unity",
+      "description": "Unity 官方 Claude Code 插件，附带精心策划的游戏开发、变现与性能优化技能。",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
+        "sha": "ba48956ae8bee4ef8a3ef3d75dec03c16aa5cc89"
+      },
+      "homepage": "https://unity.com"
+    },
+    {
+      "name": "unstructured-foundation",
+      "displayName": "Unstructured Foundation",
+      "description": "用 Unstructured Foundation 接入数据源并搜索处理后的文档。提供 MCP 访问：数据源配置、处理状态、文档搜索与文档检索。",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Unstructured-IO/unstructured-foundation-marketplace.git",
+        "path": "plugins/foundation",
+        "ref": "main",
+        "sha": "492770f062ba9f01e8a0ae9b111c89e4642fdb29"
+      },
+      "homepage": "https://unstructured.io"
+    },
+    {
+      "name": "netsuite-ai-companion",
+      "displayName": "NetSuite AI Companion",
+      "description": "指导 AI 助手使用 NetSuite AI Connector：工具选择顺序、输出格式、NetSuite 领域知识、多子公司与多币种处理，以及 SuiteQL 安全护栏。需要 NetSuite AI Connector Service。",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/oracle/netsuite-suitecloud-sdk.git",
+        "path": "anthropic/netsuite-ai-companion",
+        "ref": "ai-plugins-dist",
+        "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12"
+      },
+      "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-ai-companion"
+    },
+    {
+      "name": "netsuite-finance-analyst",
+      "displayName": "NetSuite Finance Analyst",
+      "description": "基于 NetSuite 实时数据的总监级财务分析：财务报告、期末结账、差异、账龄与对账复核、现金流报告，以及带后续行动的董事会级叙述。需要 NetSuite AI Connector Service。",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/oracle/netsuite-suitecloud-sdk.git",
+        "path": "anthropic/netsuite-finance-analyst",
+        "ref": "ai-plugins-dist",
+        "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12"
+      },
+      "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst"
+    },
+    {
+      "name": "blackrock-advisor-center-plugin",
+      "displayName": "BlackRock Advisor Center",
+      "description": "面向理财顾问的 BlackRock Advisor Center 360° 技能：投资组合回顾、机会与基金健康检查、引导式基准选择、引导式组合搭建、财富预测，并路由到 Advisor Center 网页工作流。需要 BlackRock Advisor Center 连接器与 Advisor Center 账户。",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/blackrock/advisor-center-agent-skills.git",
+        "sha": "591c758960c18c26fe8342ddb8ad3ba4dcfac6fe"
+      },
+      "homepage": "https://github.com/blackrock/advisor-center-agent-skills"
+    },
+    {
+      "name": "informatica-for-claude-platform",
+      "displayName": "Informatica",
+      "description": "面向 Informatica Intelligent Data Management Cloud 的受治理目录发现（CDGC）：在企业目录中查找表、列、文件、术语与策略，核查所有权、认证状态、敏感级别与适用策略，在查询任何数据前获得基于目录元数据的安全使用指引。需要 Informatica IDMC 租户与 Informatica Catalog Discovery 连接器。",
+      "category": "database",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/forcedotcom/informatica-claude-plugins.git",
+        "path": "informatica-for-claude-platform",
+        "ref": "main",
+        "sha": "554d02e0f7f2adafeaeeedbde04435b7bd310a47"
+      },
+      "homepage": "https://github.com/forcedotcom/informatica-claude-plugins/tree/main/informatica-for-claude-platform"
+    },
+    {
+      "name": "activecampaign",
+      "displayName": "ActiveCampaign",
+      "description": "由 ActiveCampaign 驱动的营销自动化、CRM 与邮件营销。在 Claude 里管理联系人、营销活动、自动化流程、商机，并获取 AI 驱动的营销洞察。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ActiveCampaign/activecampaign-plugin.git",
+        "sha": "0ff858728bc52aee335d5475b0d4eb5f3a9589b0"
+      },
+      "homepage": "https://www.activecampaign.com"
+    },
+    {
+      "name": "security-guidance",
+      "displayName": "Security Guidance",
+      "description": "针对 Claude 生成代码的安全审查。编辑时基于模式的告警、Stop 时的 LLM diff 审查，以及能捕获注入、XSS、SSRF、硬编码密钥等 25+ 类漏洞的 agentic 提交审查器。",
+      "category": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/security-guidance",
+        "ref": "main",
+        "sha": "3ea32df27be71d78775e627df2382fc26203577f"
+      },
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance"
+    },
+    {
+      "name": "hubspot-sales",
+      "displayName": "HubSpot Sales",
+      "description": "在 Claude 里直接跑你的 HubSpot 销售工作流。技能覆盖完整销售一天：把联系人与商机导入 HubSpot、获取按优先级排序的晨报、带完整 CRM 上下文准备任何电话、基于商机历史起草个性化跟进、描述发生了什么即可记录通话并更新记录、审查管线找出停滞商机。一切写回 HubSpot。",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/HubSpot/hubspot-mcp-plugins.git",
+        "path": "HubSpot-Sales",
+        "ref": "main",
+        "sha": "a0c59600fc1ddcf03ceca71aebf0c28aa55f49e3"
+      },
+      "homepage": "https://www.hubspot.com"
+    },
+    {
+      "name": "gc-ai",
+      "displayName": "GC AI",
+      "description": "在 Claude 里使用你的 GC AI 法律知识库：上传文档、运行审查手册、基于你自己的文件提问——全部以你的身份进行。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GC-AI-Inc/gc-ai-claude-plugin.git",
+        "sha": "efda779972c7b7162e79234e164bc2f359a8a518"
+      },
+      "homepage": "https://docs.gc.ai/api-reference/mcp/overview"
+    },
+    {
+      "name": "maven-bio",
+      "displayName": "Maven Bio",
+      "description": "基于 Maven Bio 的药物、试验、公司与交易知识图谱、有证据支撑的生物医药研究工作流。技能覆盖竞争管线、适应症格局、资产画像、交易与融资动态，以及基于 FDA、SEC、临床与新闻来源的证据综合。需要 Maven Bio 账户。",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/MavenBio/maven-bio-plugin.git",
+        "path": "plugins/maven-bio",
+        "ref": "main",
+        "sha": "885259378b239f9a4d3fe628ccea91d490edc3e9"
+      },
+      "homepage": "https://mavenbio.com/mcp/docs"
+    },
+    {
+      "name": "claude-for-financial-advisors",
+      "displayName": "Claude for Financial Advisors",
+      "description": "面向 Claude Cowork 中理财顾问的开箱即用工作流，通过第三方连接器从其公司已在用的工具拉取实时数据。插件不保存任何客户数据，任何写回外部系统的操作都由顾问批准。Claude 负责收集、整理、总结、比较与呈现信息，而顾问行使判断、给出建议。仅供金融专业人士使用；不构成投资、法律或税务建议。",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anthropics/claude-for-financial-advisors.git",
+        "sha": "96fbcb4797758186786c50dd1a09ce2feac6e18c"
+      },
+      "homepage": "https://github.com/anthropics/claude-for-financial-advisors"
+    },
+    {
+      "name": "zocks-advisor",
+      "displayName": "Zocks Advisor Intelligence",
+      "description": "基于 Zocks 会议智能、面向理财顾问的七项技能：客户行为画像、流失风险排序、行外资产雷达、客户旅程档案、家庭组合复盘包、下一步最佳行动分析与税务机会扫描。需要 Zocks 连接器与 Zocks 账户。",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zocks-communications/zocks-agent-plugins.git",
+        "sha": "a3e445c139665055c2f22f25c9a9f8721a7c6355"
+      },
+      "homepage": "https://github.com/zocks-communications/zocks-agent-plugins"
+    },
+    {
+      "name": "intuit-quickbooks",
+      "displayName": "Intuit QuickBooks",
+      "description": "QuickBooks 经营洞察与操作：横跨损益、现金流、资产负债表与应收款的财务健康简报，行业基准对比，薪资成本分析，逾期发票提醒，从邮件起草报价/发票，薪资入职与底薪调整（需确认），以及 QuickBooks Capital 贷款指引。需要 Intuit QuickBooks 连接器。",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/intuit/quickbooks-claude-plugin.git",
+        "sha": "c8daa17a64d4d0fdeabdf0516524f72549b6ad19"
+      },
+      "homepage": "https://github.com/intuit/quickbooks-claude-plugin"
+    },
+    {
+      "name": "leadfeeder",
+      "displayName": "Leadfeeder",
+      "description": "用 Leadfeeder 把网站访客信号变成销售管线：每日访客简报、访客公司调研、买家与联系人发掘、个性化触达草稿，以及把公司加入 Leadfeeder 名单，经 Leadfeeder 连接器实现。需要 Leadfeeder 账户。",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Leadfeeder/leadfeeder-mcp-plugin.git",
+        "sha": "cddf27f0771393b01a9a91335b8972e44f48cf45"
+      },
+      "homepage": "https://www.leadfeeder.com"
+    },
+    {
+      "name": "chronograph-gp",
+      "displayName": "Chronograph GP",
+      "description": "面向私募 GP 团队的组合监控、估值与分析（Chronograph 连接器）：被投公司一页纸、基金季度复盘包、估值上调/下调简报、TVPI 归因与预算对照。需要 Chronograph 账户与连接器。",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chronograph-pe/chronograph-gp-claude-plugin.git",
+        "sha": "35cb3d12cf4e24823c0efca4abe6f13c2fd0e5f5"
+      },
+      "homepage": "https://www.chronograph.pe/"
+    },
+    {
+      "name": "chronograph-lp",
+      "displayName": "Chronograph LP",
+      "description": "面向私募 LP 团队的组合监控与分析（Chronograph 连接器）：现金流预测、出资节奏、穿透式敞口扫描与 GP 会议准备。需要 Chronograph 账户与连接器。",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chronograph-pe/chronograph-lp-claude-plugin.git",
+        "sha": "322b2d3fbd4db0a2eeed117e3b3c31522408ae6f"
+      },
+      "homepage": "https://www.chronograph.pe/"
+    },
+    {
+      "name": "incident-io",
+      "displayName": "incident.io",
+      "description": "在 Claude 里使用 incident.io：响应并调查事故、查看值班表与升级策略，编写 incident.io 调查所依赖的 runbook、技能与架构文档。捆绑官方 incident.io MCP 服务器（首次使用 OAuth 授权）。",
+      "category": "monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/incident-io/skills.git",
+        "path": "plugins/incident-io",
+        "ref": "main",
+        "sha": "443f47164eda1f93108ebd908843925f681954ef"
+      },
+      "homepage": "https://incident.io"
+    },
+    {
+      "name": "wingspan",
+      "displayName": "Wingspan",
+      "description": "向 Claude 询问你通过 Wingspan 支付的承包商情况、你欠他们什么、哪笔付款被卡住，然后完成承包商入驻、以草稿形式记录付款，写入前先预览。需要 Wingspan 账户；捆绑 Wingspan MCP 服务器（首次使用 OAuth 授权）。",
+      "author": {
+        "name": "Wingspan"
+      },
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wingspanHQ/mcp-claude-plugin.git",
+        "sha": "01f2b0806fc91d0550859a7f840db353d1edd4e9"
+      },
+      "homepage": "https://github.com/wingspanHQ/mcp-claude-plugin"
+    },
+    {
+      "name": "hostinger",
+      "displayName": "Hostinger",
+      "description": "部署、管理、监控 Hostinger 服务——网站、域名、电商、邮件营销、订阅与支付、VPS。支持浏览器（OAuth）或 API 令牌鉴权。",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hostinger/claude-plugin.git",
+        "sha": "569880c60681a7068b3ca8ca84e2fe7ab6cfa7ff"
+      },
+      "homepage": "https://www.hostinger.com"
+    },
+    {
+      "name": "pendo-analytics",
+      "displayName": "Pendo Analytics",
+      "description": "把 Pendo 产品分析带进 Claude：账户健康度、功能采用、会话回放查询与分诊、反馈分析，以及基于真实使用数据的数据驱动规划。需要 Pendo 连接器与 Pendo 订阅。",
+      "author": {
+        "name": "Pendo"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pendo-io/claude-pendo-plugin.git",
+        "path": "plugins/pendo-analytics",
+        "ref": "main",
+        "sha": "340d503c23eed487be83693aa4c1837df4a7dcd4"
+      },
+      "homepage": "https://www.pendo.io"
+    },
+    {
+      "name": "pendo-guides",
+      "displayName": "Pendo Guides",
+      "description": "通过简短的 intake 对话，使用 Pendo 引导组件创建可直接上线的 Pendo 应用内引导（流程演示、公告、提醒、投票、促销），输出 HTML/CSS/JS。",
+      "author": {
+        "name": "Pendo"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pendo-io/claude-pendo-plugin.git",
+        "path": "plugins/pendo-guides",
+        "ref": "main",
+        "sha": "340d503c23eed487be83693aa4c1837df4a7dcd4"
+      },
+      "homepage": "https://www.pendo.io"
+    },
+    {
+      "name": "pendo-orchestrate",
+      "displayName": "Pendo Orchestrate",
+      "description": "通过 Pendo 连接器创建、配置并编辑 Pendo Orchestrate 邮件旅程草稿，支持多邮件与条件分流流程。旅程保持草稿状态，激活在 Orchestrate 界面完成。",
+      "author": {
+        "name": "Pendo"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pendo-io/claude-pendo-plugin.git",
+        "path": "plugins/pendo-orchestrate",
+        "ref": "main",
+        "sha": "340d503c23eed487be83693aa4c1837df4a7dcd4"
+      },
+      "homepage": "https://www.pendo.io"
+    },
+    {
+      "name": "amazon-selling-partner",
+      "displayName": "Amazon Selling Partner",
+      "description": "把你的 Amazon Seller Central 账户接入 Claude。询问销售、库存与 Listing 表现，获得基于你自身数据的建议；每项 Listing、库存或 FBA 操作都先经你审阅批准再执行。捆绑 Amazon Selling Partner MCP 服务器（首次使用 Seller Central OAuth）。目前为测试版。",
+      "author": {
+        "name": "Amazon"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amzn/selling-partner-agentic-toolkit.git",
+        "sha": "10573bac239b7062a476667eaa574d400335c70e"
+      },
+      "homepage": "https://github.com/amzn/selling-partner-agentic-toolkit"
+    },
+    {
+      "name": "render",
+      "displayName": "Render",
+      "description": "在 Render 上部署、调试、监控应用：blueprint、部署与排障技能，Render 助手 agent，部署/状态命令，render.yaml 校验钩子，以及经 OAuth 预配置的 Render MCP 连接器。",
+      "author": {
+        "name": "Render"
+      },
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/render-oss/render-plugin-claude-code.git",
+        "sha": "e8f889396634dbc8c368448a7f3de993ed4a5ac1"
+      },
+      "homepage": "https://render.com"
+    },
+    {
+      "name": "vanguard-advisor-tools",
+      "displayName": "Vanguard Advisor Tools",
+      "description": "面向金融专业人士的 Vanguard 顾问工具：在行业内研究并比较基金与 ETF，为客户沟通做准备，通过 Vanguard 顾问连接器在 Claude 中使用。",
+      "author": {
+        "name": "Vanguard"
+      },
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Vanguard-oss/vanguard-advisor-tools.git",
+        "sha": "328fe9f61fe7a375b87a6492e265b4a5a955b0ce"
+      },
+      "homepage": "https://advisors.vanguard.com"
+    },
+    {
+      "name": "govtribe",
+      "displayName": "GovTribe",
+      "description": "在 Claude 中进行政府合同研究与捕获工作流：机会与管线简报、投标/弃标与竞品分析、价格制胜与标书准备，由 GovTribe 连接器驱动。",
+      "author": {
+        "name": "GovTribe"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GovTribe/claude-plugin.git",
+        "sha": "d3e0c82c6c4f960320c010ceb8aabb463f1fb7d2"
+      },
+      "homepage": "https://govtribe.com"
+    }
+  ]
+}

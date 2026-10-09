@@ -1,0 +1,8 @@
+{
+  "name": "data",
+  "version": "1.1.0",
+  "description": "更快地写 SQL、探索数据集、产出洞察。构建可视化与仪表盘，把原始数据变成给利益相关者的清晰故事。",
+  "author": {
+    "name": "Anthropic"
+  }
+}

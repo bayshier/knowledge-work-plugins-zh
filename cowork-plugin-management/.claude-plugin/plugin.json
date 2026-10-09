@@ -1,0 +1,8 @@
+{
+  "name": "cowork-plugin-management",
+  "version": "0.2.2",
+  "description": "创建、定制并管理贴合你组织工具与工作流的插件。配置 MCP 服务器、调整插件行为、改造模板，让它们匹配你团队的真实工作方式。",
+  "author": {
+    "name": "Anthropic"
+  }
+}

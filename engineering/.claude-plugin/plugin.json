@@ -1,0 +1,8 @@
+{
+  "name": "engineering",
+  "version": "1.2.0",
+  "description": "精简工程工作流——站会、代码评审、架构决策、事故响应、技术文档。可配合现有工具，也可独立使用。",
+  "author": {
+    "name": "Anthropic"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "enterprise-search",
+  "version": "1.3.0",
+  "description": "在一个地方搜索公司全部工具。跨邮件、聊天、文档与 wiki 找到任何内容，无需在应用之间来回切换。",
+  "author": {
+    "name": "Anthropic"
+  }
+}

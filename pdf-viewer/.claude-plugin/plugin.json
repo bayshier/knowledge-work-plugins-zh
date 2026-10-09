@@ -1,0 +1,8 @@
+{
+  "name": "pdf-viewer",
+  "version": "0.2.0",
+  "description": "在实时交互查看器中查看、批注并签署 PDF。标记合同、带视觉反馈填写表单、盖章批准、放置签名——然后下载批注后的副本。",
+  "author": {
+    "name": "Anthropic"
+  }
+}

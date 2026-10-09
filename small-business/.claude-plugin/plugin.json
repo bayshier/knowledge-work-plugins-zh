@@ -1,0 +1,24 @@
+{
+  "name": "small-business",
+  "displayName": "Small Business",
+  "version": "1.35.1",
+  "description": "预置的小企业工作流，帮你经营并发展生意。支持你已在用的大多数工具。每一步涉及钱或客户的操作都由你批准。安装后让 Claude 带你完成上手。",
+  "author": {
+    "name": "Anthropic"
+  },
+  "keywords": [
+    "all-in-one",
+    "automation",
+    "finance",
+    "growth",
+    "hr",
+    "marketing",
+    "operations",
+    "sales",
+    "small-business",
+    "smb",
+    "taxes",
+    "workflow",
+    "zapier"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bio-research",
+  "version": "1.2.0",
+  "description": "连接临床前研究工具与数据库（文献检索、基因组学分析、靶点优先级排序），加速早期生命科学研发",
+  "author": {
+    "name": "Anthropic"
+  }
+}
